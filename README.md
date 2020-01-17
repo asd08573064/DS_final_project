@@ -10,3 +10,9 @@ Notice that there is still some room for improvement due to lack of RAM.
 g++11 standard 
 see Makefile to get more detail.
 
+# input
+open_testcase_ds.txt contians multiple lines of pairs, each pair represents each edge in the graph.
+
+# output
+Output two files, kcore.txt and clique.txt, the first file should contain all the edges of which coreness is greater than the desire value and the other file should contain the nodes of maximum clique with ascending order of index.
+
