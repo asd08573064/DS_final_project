@@ -16,5 +16,5 @@ clean:
 ifeq ($(OS),Windows_NT)
 	del main.exe *.o
 else
-	rm main *.o
+	rm clique_find
 endif
