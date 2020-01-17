@@ -6,5 +6,7 @@ See the reference here (http://insilab.org/articles/match2007.pdf) to know more 
 
 Notice that there is still some room for improvement due to lack of RAM.
 
-#conpile
+# compile
+g++11 standard 
+see Makefile to get more detail.
 
