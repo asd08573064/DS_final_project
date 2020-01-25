@@ -219,8 +219,8 @@ void Maxclique::color(Vertices &R) {
 }
 
 void Maxclique::expand(Vertices R) {
-    while (R.sz) {
-        if (q.sz + R.end().d > q_max.sz && ((double) (clock() - start2))/CLOCKS_PER_SEC < 100) {
+    while (R.sz&& ((double) (clock() - start2))/CLOCKS_PER_SEC < 170) {
+        if (q.sz + R.end().d > q_max.sz ) {
             q.add(R.end().i);
             Vertices Rp(R.sz);
             intersection1(R, Rp);
